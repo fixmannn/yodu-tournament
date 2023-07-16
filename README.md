@@ -46,20 +46,43 @@ git clone https://github.com/fixmannn/yodu-tournament.git
 Go to the project directory:
 
 ```
-cd yodu-tournament
+cd yodu-tournament-main
 ```
 
 
 ### Start the server:
 
-Back end:
-
+<b>Back end:</b>
 
 
 
 ```
 cd backend
 ```
+
+<b>Create and Activate virtual environment</b>
+
+Windows
+
+```
+py -3 -m venv .venv
+```
+
+```
+.venv\Scripts\activate
+```
+
+Mac
+
+```
+python3 -m venv .venv
+```
+
+```
+.venv/bin/activate
+```
+
+Install Dependencies
 
 ```
 pip install -r requirements.txt
@@ -69,7 +92,8 @@ pip install -r requirements.txt
 flask --app app run
 ```
 
-Front end:
+
+<b>Front end:</b>
 ```
 cd frontend
 ```
